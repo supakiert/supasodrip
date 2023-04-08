@@ -29,10 +29,16 @@ const ExperienceCard = ({ experience }) => {
             alt={experience.company_name}
             className="w-[60%] h-[60%] object-contain"
           />
+
+          
         </div>
       }
     >
       <div>
+      <img
+      src={experience.images}
+      className="w-[100%] h-[100%%] object-contain"
+      />
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
         <p
           className="text-secondary text-[16px] font-semibold"
@@ -60,8 +66,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <h2 className={styles.sectionHeadText}>Experience.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

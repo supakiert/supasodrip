@@ -23,22 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  HPCAI2021
 } from "../assets";
 
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
 
 const services = [
   {
@@ -117,7 +104,8 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Starbucdfghsdffdsdfgks",
+    images: HPCAI2021,
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
